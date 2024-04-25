@@ -1,7 +1,7 @@
 <head></head>
 <body>
 Schedule an Appointment
-    <script src="https://ace-aaa.my.site.com/prospects/lightning/lightning.out.js"></script>
+    <script src="https://ace-aaa--travelsb02.sandbox.lightning.force.com/prospects/lightning/lightning.out.js"></script>
 <script>
     var urlParams = new URLSearchParams(window.location.search);
     var websiteSource = urlParams.get('websiteSource');
@@ -53,7 +53,7 @@ Schedule an Appointment
                     component.startFlow("Inbound_New_Guest_Appointment_Travel", inputVariables);
                 }
             );
-        },    'https://ace-aaa--travelqa.sandbox.my.site.com/prospects',  // Site endpoint
+        },    'https://ace-aaa--travelsb02.sandbox.lightning.force.com/prospects',  // Site endpoint
                 'session-id'
     );
 </script>
@@ -61,3 +61,5 @@ Schedule an Appointment
 <p>  </p>
 </div>
 </body>
+
+
